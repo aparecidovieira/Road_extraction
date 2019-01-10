@@ -1,5 +1,5 @@
 # Road_extraction
-Attention Unet and Deep Unet implementation for road extraction tensorflow
+Attention Unet and Deep Unet implementation for road extraction using multi-gpu model tensorflow
 
 Attention UNet  (link)Attention U-Net: Learning Where to Look for the Pancreas
 
