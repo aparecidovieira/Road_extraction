@@ -1,8 +1,7 @@
 # Road_extraction
 Attention Unet and Deep Unet implementation for road extraction using multi-gpu model tensorflow
 
-Attention UNet  (link)Attention U-Net: Learning Where to Look for the Pancreas
-FYI I've changed the convolution block to a residual block, meaning that instead of having double convolution it has a 3 convolution with skip connection between the double conv. 
+Several variations of Deep U-Net were tested with extra layers and extra convolutions. Nevertheless, the model that outperformed all of them was the Attention U-Net: Learning Where to Look for the Pancreas. I have added an extra tweak improving even further performance, switching the convolution blocks to the residual blocks
 https://arxiv.org/abs/1804.03999
 
 
