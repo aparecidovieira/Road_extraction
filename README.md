@@ -2,13 +2,9 @@
 Attention Unet and Deep Unet implementation for road extraction using multi-gpu model tensorflow
 
 Several variations of Deep U-Net were tested with extra layers and extra convolutions. Nevertheless, the model that outperformed all of them was the Attention U-Net: Learning Where to Look for the Pancreas. I have added an extra tweak improving even further performance, switching the convolution blocks to the residual blocks
-https://arxiv.org/abs/1804.03999
 
-
-![Attention U-Net](https://github.com/LeeJunHyun/Image_Segmentation/blob/master/img/AttU-Net.png)
-
-# Keras Segmentation
-Keras segmentation models, U-Net, Attention Unet, Recurrent U-Net, Fusion Net, and Lane-Net (All variations of U-Net)
+# TensorFlow Segmentation
+TF segmentation models, U-Net, Attention Unet, Deep U-Net (All variations of U-Net)
 
 Image Segmentation using neural networks (NNs), designed for extracting the road network from remote sensing imagery and it can be used in other applications labels every pixel in the image (Semantic segmentation) 
 
@@ -16,18 +12,6 @@ Details can be found in these papers:
 
 * [Unet: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
 * [Attention U-Net: Learning Where to Look for the Pancreas](https://arxiv.org/abs/1804.03999)
-* [FusionNet: A deep fully residual convolutional neural network for image segmentation in connectomics](https://arxiv.org/pdf/1612.05360)
-* [Recurrent Residual Convolutional Neural Network based on U-Net (R2U-Net) for Medical Image Segmentation](https://arxiv.org/abs/1802.06955)
-
-## Comparisson of different types of U-Net 
-
-![types U-Net](Images/runet.png)
-
-
-* (a) Basic convolutional unit in U-Net
-* (b) Convolutional unint in RU-Net
-* (c) Convolutional unit in Residual U-Net
-* (d) Convolutional unit in R2U-Net
 
 ## Attention U-Net extra module
 
