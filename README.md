@@ -30,7 +30,7 @@ utils.py and helper.py
 functions for preprocessing data and saving it.
 
 
-## Trainig model:
+## Training model:
 ```
 usage: mainGPU.py [-h] [--num_epochs NUM_EPOCHS] [--save SAVE] [--gpu GPU]
                   [--mode MODE] [--checkpoint CHECKPOINT]
